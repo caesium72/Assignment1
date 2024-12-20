@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 
+
 const featuredCats = [
     { name: 'Whiskers', age: '2' },
     { name: 'Mittens', age: '2' },
@@ -38,9 +39,10 @@ export default function Home() {
     return (
         <>
             <section className="text-center mt-4">
-                <h2>Welcome to cat Adoption</h2>
+                <h2>Welcome to Purrfect Adoption</h2>
                 <p>
                     Meet our adorable cats looking for their forever home!
+                    Do not buy it just adopt it.
                 </p>
             </section>
             <section className="mt-5">
